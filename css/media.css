@@ -1,0 +1,47 @@
+@media screen and (max-width: 1000px){
+    #logo{
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    form{
+        margin-top: 60px;
+    }
+
+    input{
+        height: 55px;
+        width: 300px;
+        padding: 15px;
+        margin: 0 10px;
+        border-radius: 2px;
+        border: none;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 870px){
+    #logo{
+        width: 300px;
+        margin-top: 40px;
+    }
+
+    .titulo{
+        margin-top: 90px;
+    }
+
+    form{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    input{
+        height: 55px;
+        width: 300px;
+        padding: 15px;
+        margin: 5px;
+        border-radius: 2px;
+        border: none;
+        font-size: 18px;
+    }
+}
