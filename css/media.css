@@ -1,7 +1,11 @@
 @media screen and (max-width: 1000px){
-    #logo{
-        width: 300px;
-        margin-top: 50px;
+    .logo{
+        width: 350px;
+        margin-top: 40px;
+    }
+
+    .titulo{
+        margin-top: 80px;
     }
 
     form{
@@ -18,16 +22,51 @@
         font-size: 18px;
     }
 
+    .container{
+        display:flex;
+        position:relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .box-1{
+        display: block;
+        position:relative;
+        float: none;
+        width: 80%;
+        height: 100%;
+        margin-left: 0;
+    }
+    
+    .box-2{
+        display: block;
+        position:relative;
+        float: none;
+        width: 80%;
+        height: 100%;
+        margin-left: 0;
+    }
+    
+    .bloco{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        float: left;
+        padding: 20px;
+    }
+
 }
 
 @media screen and (max-width: 870px){
-    #logo{
+    .logo{
         width: 300px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     .titulo{
-        margin-top: 90px;
+        margin-top: 70px;
     }
 
     form{
@@ -43,5 +82,101 @@
         border-radius: 2px;
         border: none;
         font-size: 18px;
+    }
+
+    .container{
+        display:flex;
+        position:relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .box-1{
+        display: block;
+        position:relative;
+        float: none;
+        width: 80%;
+        height: 100%;
+        margin-left: 0;
+    }
+    
+    .box-2{
+        display: block;
+        position:relative;
+        float: none;
+        width: 80%;
+        height: 100%;
+        margin-left: 0;
+    }
+    
+    .bloco{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        float: left;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 513px){
+    .logo{
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .titulo{
+        margin-top: 60px;
+    }
+
+    form{
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    input{
+        height: 55px;
+        width: 300px;
+        padding: 15px;
+        margin: 5px;
+        border-radius: 2px;
+        border: none;
+        font-size: 18px;
+    }
+
+    .container{
+        display:flex;
+        position:relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .box-1{
+        display: block;
+        position:relative;
+        float: none;
+        width: 80%;
+        height: 100%;
+        margin-left: 0;
+    }
+    
+    .box-2{
+        display: block;
+        position:relative;
+        float: none;
+        width: 80%;
+        height: 100%;
+        margin-left: 0;
+    }
+    
+    .bloco{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        float: left;
+        padding: 20px;
     }
 }
