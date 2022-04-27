@@ -33,7 +33,7 @@ header{
     background-color: rgb(1, 3, 20);
 }
 
-img{
+#img-logo{
     width: 100%;
 }
 
@@ -62,7 +62,7 @@ h3{
 form{
     display: flex;
     align-items: center;
-    padding-top: 120px;
+    padding-top: 80px;
 }
 
 textarea:focus, input:focus {
@@ -118,6 +118,7 @@ input{
     flex-direction: column;
     gap: 10px;
     align-items: center;
+    text-align: center;
     font-family: poppinsregular;
 }
 
@@ -170,7 +171,7 @@ main section div h3{
 }
 
 .icon{
-    height: 64px;
+    height: 75px;
 }
 
 #image{
@@ -178,7 +179,7 @@ main section div h3{
     max-height: 100%;
 }
 
-h6{
+#texto-icone{
     margin-left: 30px;
     align-items: center;
     font-size: 18px;
@@ -298,11 +299,34 @@ h6{
     padding: 30px;
 }
 
+.prof1-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+.prof3-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.icone-prof{
+    padding: 20px;
+}
+
 #prof{
     width: 200px!important;
     height: 200px!important;
     border-radius: 50%;
-    padding: 20px;
+    padding: 10px;
+}
+
+#nome-prof{
+    align-items: center;
+    font-size: 18px;
+    font-family: poppinsregular;
 }
 
 /* section 4 */
@@ -354,6 +378,10 @@ h6{
 
 .logo-rodape{
     width: 200px;
+}
+
+#img-rodape{
+    width: 100%;
 }
 
 /* footer */
