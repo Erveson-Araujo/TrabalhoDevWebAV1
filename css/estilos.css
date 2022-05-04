@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-body{
+
+body {
     background: linear-gradient(68.15deg, #141414 20.62%, #4d4d4d 85.61%);
     background-repeat: no-repeat;
     color: white;
@@ -17,7 +18,7 @@ body{
 
 /* header */
 
-header{
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,50 +28,51 @@ header{
     height: 800px;
     background-image: url('/img/banner-guarda.jpeg');
     position: relative;
-    background-attachment:scroll;
+    background-attachment: scroll;
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: rgb(1, 3, 20);
 }
 
-#img-logo{
+#img-logo {
     width: 100%;
 }
 
-.logo{
+.logo {
     width: 400px;
     margin-top: 50px;
 }
 
-.titulo{
+.titulo {
     margin-top: 120px;
     text-align: center;
 }
 
-h1{
+h1 {
     font-weight: 200;
     font-size: 50px;
     font-family: poppinssemibold;
 }
 
-h3{
+h3 {
     font-size: 30px;
     font-family: poppinslight;
     color: yellow;
 }
 
-form{
+form {
     display: flex;
     align-items: center;
     padding-top: 80px;
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
     box-shadow: 0 0 0 0;
     outline-color: rgb(131, 155, 245);
 }
 
-input{
+input {
     height: 55px;
     width: 350px;
     padding: 15px;
@@ -80,7 +82,7 @@ input{
     font-size: 18px;
 }
 
-.btn-primary{
+.btn-primary {
     height: 55px;
     width: 200px;
     background-color: rgb(4, 48, 209);
@@ -90,11 +92,11 @@ input{
     border: none;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: rgb(4, 24, 203);
 }
 
-.inscricao{
+.inscricao {
     padding-top: 30px;
 }
 
@@ -103,7 +105,7 @@ input{
 /* main */
 /* section 1 */
 
-.section-1{
+.section-1 {
     background: linear-gradient(68.15deg, #141414 20.62%, #4d4d4d 85.61%);
     background-repeat: no-repeat;
     color: white;
@@ -113,7 +115,7 @@ input{
     padding: 50px;
 }
 
-.titulo-main{
+.titulo-main {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -122,24 +124,24 @@ input{
     font-family: poppinsregular;
 }
 
-main section div h1{
+main section div h1 {
     font-size: 35px;
     color: yellow;
 }
 
-main section div h2{
+main section div h2 {
     font-size: 30px;
     color: white;
     font-weight: bold;
 }
 
-main section div h3{
+main section div h3 {
     font-size: 30px;
     color: yellow;
     font-weight: bold;
 }
 
-.container{
+.container {
     display: flex;
     position: relative;
     flex-direction: row;
@@ -148,21 +150,21 @@ main section div h3{
     padding: 20px;
 }
 
-.box-1{
+.box-1 {
     float: left;
     width: 50%;
     height: 200px;
     margin-left: 100px;
 }
 
-.box-2{
+.box-2 {
     float: left;
     width: 50%;
     height: 200px;
     margin-left: 100px;
 }
 
-.bloco{
+.bloco {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -170,16 +172,16 @@ main section div h3{
     padding: 20px;
 }
 
-.icon{
+.icon {
     height: 75px;
 }
 
-#image{
-    width: auto; 
+#image {
+    width: auto;
     max-height: 100%;
 }
 
-#texto-icone{
+#texto-icone {
     margin-left: 30px;
     align-items: center;
     font-size: 18px;
@@ -191,7 +193,7 @@ main section div h3{
 
 /* section 2 */
 
-.section-2{
+.section-2 {
     background: linear-gradient(68.15deg, #000218 20.62%, #010d52 85.61%);
     background-repeat: no-repeat;
     color: white;
@@ -200,7 +202,7 @@ main section div h3{
     border: 0.4px solid #4a4a4a;
 }
 
-.conteudo-section-2{
+.conteudo-section-2 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -208,23 +210,23 @@ main section div h3{
     padding: 100px;
 }
 
-.texto-section-2{
+.texto-section-2 {
     display: flex;
     flex-direction: column;
     gap: 15px;
     max-width: 50%;
 }
 
-.imagem-section-2{
-    height: 500px!important;
-    width: 500px!important;
+.imagem-section-2 {
+    height: 500px !important;
+    width: 500px !important;
 }
 
 /* section 2 */
 
 /* section 3 */
 
-.section-3{
+.section-3 {
     background: linear-gradient(68.15deg, #141414 20.62%, #4d4d4d 85.61%);
     background-repeat: no-repeat;
     color: white;
@@ -232,7 +234,7 @@ main section div h3{
     height: 700px;
 }
 
-.conteudo-section-3{
+.conteudo-section-3 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -240,14 +242,14 @@ main section div h3{
     padding: 100px;
 }
 
-.video-section-3{
-    height: 450px!important;
-    width: 720px!important;
+.video-section-3 {
+    height: 450px !important;
+    width: 720px !important;
     margin-top: 10px;
     padding: 50px;
 }
 
-.texto-section-3{
+.texto-section-3 {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -260,7 +262,7 @@ main section div h3{
 
 /* section 4 */
 
-.section-4{
+.section-4 {
     background: linear-gradient(68.15deg, #000218 20.62%, #010d52 85.61%);
     background-repeat: no-repeat;
     display: flex;
@@ -274,56 +276,82 @@ main section div h3{
     border: 0.4px solid #4a4a4a;
 }
 
-.titulo-section-4{
+.titulo-section-4 {
     padding: 30px;
 }
 
-.titulo-4{
+.titulo-4 {
     font-weight: 200;
     font-size: 50px;
     font-family: poppinsregular;
     color: yellow;
 }
 
-.subtitulo-4{
+.subtitulo-4 {
     font-size: 20px;
     font-family: poppinsregular;
     color: white;
     width: 1000px;
 }
 
-.image-prof{
+.image-prof {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 30px;
 }
 
-.prof1-2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 10px;
-}
-.prof3-4{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 10px;
+.prof1:hover,
+.prof2:hover,
+.prof3:hover,
+.prof4:hover {
+    opacity: 1;
 }
 
-.icone-prof{
+.prof1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    opacity: 0.7;
+}
+
+.prof2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    opacity: 0.7;
+}
+
+.prof3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    opacity: 0.7;
+}
+
+.prof4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    opacity: 0.7;
+}
+
+.icone-prof {
     padding: 20px;
 }
 
-#prof{
-    width: 200px!important;
-    height: 200px!important;
+#prof {
+    width: 200px !important;
+    height: 200px !important;
     border-radius: 50%;
     padding: 10px;
 }
 
-#nome-prof{
+#nome-prof {
     align-items: center;
     font-size: 18px;
     font-family: poppinsregular;
@@ -333,7 +361,7 @@ main section div h3{
 
 /* section 5 */
 
-.section-5{
+.section-5 {
     background: linear-gradient(68.15deg, #141414 20.62%, #4d4d4d 85.61%);
     background-repeat: no-repeat;
     display: flex;
@@ -346,14 +374,14 @@ main section div h3{
     justify-content: center;
 }
 
-.titulo-5{
+.titulo-5 {
     font-weight: 200;
     font-size: 50px;
     font-family: poppinsregular;
     color: yellow;
 }
 
-.subtitulo-5{
+.subtitulo-5 {
     font-size: 20px;
     font-family: poppinslight;
     color: white;
@@ -364,7 +392,7 @@ main section div h3{
 
 /* footer */
 
-.rodape{
+.rodape {
     background: linear-gradient(68.15deg, #000218 20.62%, #010d52 85.61%);
     background-repeat: no-repeat;
     color: white;
@@ -376,11 +404,11 @@ main section div h3{
     padding: 10px;
 }
 
-.logo-rodape{
+.logo-rodape {
     width: 200px;
 }
 
-#img-rodape{
+#img-rodape {
     width: 100%;
 }
 
